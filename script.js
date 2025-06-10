@@ -16,6 +16,6 @@ function calculateResult() {
   try {
     display.value = eval(display.value.replace('÷', '/').replace('×', '*'));
   } catch {
-    display.value = 'Fehler';
+    display.value = 'Error :(';
   }
 }
